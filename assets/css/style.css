@@ -53,8 +53,8 @@
 .search-input {
     align-items: center;
     text-transform: uppercase;
-    width: 70vw;
-    height: 8vh;
+    width: 60vw;
+    height: 5vh;
     padding: 10px;
     border: .125rem solid #808080;
     border-radius: 1rem;
@@ -65,8 +65,9 @@
 }
 
 .search-btn {
-    width: 20vw;
-    height: 8vh;
+    width: 25vw;
+    height: 9vh;
+    padding: 10px;
     border: .125rem solid #808080;
     border-radius: 1rem;
     margin-left: 2%;
@@ -99,12 +100,12 @@
     
     .search-input {
         width: 80%;
-        height: 10vh;
+        height: 8vh;
     }
     
     .search-btn {
         width: 10%;
-        height: 10vh;
+        height: 12vh;
     }
     
 }
