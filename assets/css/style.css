@@ -1,7 +1,14 @@
+.container{
+    background-color: #fffafa;
+    color: #464646;
+    text-decoration: none;
+}
+
 .menu .menu-options{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    flex-direction: column;
     margin: 0;
     background-color: #fff;
     border-bottom: .225rem solid #808080;
@@ -19,10 +26,63 @@
 }
 
 .menu .menu-logo img{
-    width: 80px;
+    width: 100px;
+}
+
+.advertising{
+    border-bottom: .225rem solid #808080;
+}
+
+.advertising h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+.advertising img{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.search-label{
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  
+.search-input {
+    align-items: center;
+    text-transform: uppercase;
+    width: 70vw;
+    height: 8vh;
+    padding: 10px;
+    border: .125rem solid #808080;
+    border-radius: 1rem;
+    outline: none;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.search-btn {
+    width: 20vw;
+    height: 8vh;
+    border: .125rem solid #808080;
+    border-radius: 1rem;
+    margin-left: 2%;
+    outline: none;
+    font-size: 1rem;
 }
 
 @media only screen and (min-width:768px) {
+
+    .menu .menu-options{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+
     .menu .menu-logo img{
         width: 100px;
     }
@@ -31,6 +91,20 @@
         justify-content: space-around;
         padding: 1rem;
     }
+
+    .advertising h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
     
+    .search-input {
+        width: 80%;
+        height: 10vh;
+    }
+    
+    .search-btn {
+        width: 10%;
+        height: 10vh;
+    }
     
 }

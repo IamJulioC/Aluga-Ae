@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!--FAVICON-->
     <link rel="shortcut icon" href="./assets/icon/alugaAeIcon.jpeg" type="image/x-icon">
+    <!--FontAwesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <!---->
     <title>Aluga Aê</title>
 </head>
@@ -30,16 +32,28 @@
                     <li><a href="#">Alugue</a></li>
                     <li><a href="#">Sobre Nós</a></li>
                     <li><a href="/assets/html/login.html">Acessar</a></li>
-                    <li></li>
+                    <li><a id="mudar-cor" class="inclui-icon"></a></li>
                 </ul>
             </nav>
         </header>
 
-        <section>
+        <section class="advertising">
+            <h1>Alugue sua próxima casa<br> de maneira simplificada</h1>
+            <img src="/assets/images/famillyMoving.jpg" alt="">
+        </section>
 
+        <section class="search">
+            <form action="#">
+                <h3 class="search-label">Digite sua local</h3>
+                <input type="text" placeholder="São Paulo" class="search-input" id="" autofocus required>
+                <button type="submit" class="search-btn">
+                  <img src="" alt="Busque">
+                </button>
+              </form>
         </section>
 
     </main>
     
+    <script src="/assets/js/switchTheme.js"></script>
 </body>
 </html>

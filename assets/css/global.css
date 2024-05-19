@@ -1,8 +1,23 @@
-*{
-    background-color: #fffafa;
-    color: #464646;
-    list-style: none;
-    text-decoration: none;
+.container{
     box-sizing: border-box;
     font-family: 'Montserrat',sans-serif;
+}
+
+.menu-options .dark{
+    background-color: #808080;
+    border-bottom: .225rem solid #fffaff;
+}
+
+.menu-options ul li{
+    list-style: none;
+}
+
+.menu-options ul li a{
+    color: #464646;
+    text-decoration: none;
+}
+
+.mode-dark{
+    background-color: #2e2e2e;
+    color: #fff
 }
