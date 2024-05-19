@@ -1,0 +1,36 @@
+.menu .menu-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    background-color: #fff;
+    border-bottom: .225rem solid #808080;
+}
+
+.menu .menu-options ul{
+    display: flex;
+    background-color: #fff;
+}
+
+.menu .menu-options ul li{
+    justify-content: space-around;
+    padding: .5rem;
+    background-color: #fff;
+}
+
+.menu .menu-logo img{
+    width: 80px;
+}
+
+@media only screen and (min-width:768px) {
+    .menu .menu-logo img{
+        width: 100px;
+    }
+
+    .menu .menu-options ul li{
+        justify-content: space-around;
+        padding: 1rem;
+    }
+    
+    
+}
