@@ -3,18 +3,19 @@
     font-family: 'Montserrat',sans-serif;
 }
 
-.menu-options .dark{
-    background-color: #808080;
-    border-bottom: .225rem solid #fffaff;
-}
-
 .menu-options ul li{
     list-style: none;
+    padding: .5rem;
 }
 
 .menu-options ul li a{
-    color: #464646;
+    color: #fffaff;
     text-decoration: none;
+}
+
+.menu-options ul li a:hover{
+    color: #0084ff;
+    border-bottom: .125rem solid #0084ff;
 }
 
 .mode-dark{
